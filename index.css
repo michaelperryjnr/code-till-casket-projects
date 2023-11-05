@@ -165,29 +165,31 @@ h1 {
 
 .curly-arrow-1 {
   position: absolute;
-  width: 10%;
-  margin-left: 38%;
-  bottom: 125px;
+  width: 12%;
+  margin-left: 37%;
+  bottom: 115px;
 }
 
 .curly-arrow-2 {
   position: absolute;
-  width: 7%;
-  top: 20px;
-  margin-left: 90%;
+  width: 9%;
+  top: 8px;
+  margin-left: 85%;
 }
 
 .object-circle {
-  margin-top: 30%;
-  width: 70%;
-  height: 80%;
-  border-radius: 50%;
-  background-color: black;
+  height: 350px;
+  width: 400px;
   position: relative;
-  margin-bottom: 90px;
+  border-top-right-radius: 170px;
+  border-top-left-radius: 170px;
+  border-bottom-left-radius: 170px;
+  top: 30%;
+  background-color: black;
 }
 
 .flower-pot {
   position: absolute;
-  top: -40%;
+  top: -41%;
+  margin-left: 40px;
 }
