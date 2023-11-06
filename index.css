@@ -201,7 +201,7 @@ h1 {
   justify-content: space-between;
   flex-shrink: 0;
   margin-top: 50px;
-    margin-left: 70px;
+  margin-left: 70px;
   margin-right: 70px;
 }
 
@@ -212,7 +212,7 @@ h1 {
 }
 
 .showcase-btn {
-  background-color:rgb(193, 219, 219);
+  background-color: rgb(193, 219, 219);
   border: none;
   border-radius: 10px;
   padding-top: 10px;
@@ -226,7 +226,6 @@ h1 {
   align-items: center;
   gap: 8px;
 }
-
 
 .showcase-btn:hover {
   opacity: 0.8;
@@ -253,5 +252,65 @@ h1 {
   font-weight: normal;
   font-size: 11px;
   margin-top: 2px;
+  color: rgb(177, 177, 177);
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  gap: 40px;
+}
+
+.abt-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.abt-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.abt-heading-1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.abt-image-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abt-image {
+  width: 100%;
+}
+
+.abt-subheading {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(177, 177, 177);
+  margin-top: 4px;
+}
+
+.abt-h2 {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+.abt-h3 {
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
   color: rgb(177, 177, 177);
 }
