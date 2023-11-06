@@ -1,10 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Poppins;
   font-weight: 400;
 }
 
+main {
+  padding-top: 50px;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
 .nav-bar {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -40,6 +52,8 @@ body {
 
 .link-items {
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .link-items:hover {
@@ -67,7 +81,6 @@ body {
 }
 
 .home {
-  margin-top: 20px;
   width: auto;
   height: 500px;
   background-color: rgb(193, 219, 219);
@@ -200,9 +213,10 @@ h1 {
   gap: 40px;
   justify-content: space-between;
   flex-shrink: 0;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-left: 70px;
   margin-right: 70px;
+  padding-top: 50px;
 }
 
 .showcase-title-more {
@@ -263,6 +277,7 @@ h1 {
   margin-left: 70px;
   margin-right: 70px;
   gap: 40px;
+  padding-top: 50px;
 }
 
 .abt-links-container {
