@@ -193,3 +193,40 @@ h1 {
   top: -41%;
   margin-left: 40px;
 }
+
+.showCase {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-between;
+  margin-top: 50px;
+    margin-left: 70px;
+  margin-right: 70px;
+}
+
+.showcase-title-more {
+  color: rgb(177, 177, 177);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.showcase-btn {
+  background-color:rgb(193, 219, 219);
+  border: none;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.showcase-btn:hover {
+  opacity: 0.8;
+}
