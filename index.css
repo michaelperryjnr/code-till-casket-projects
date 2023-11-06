@@ -199,6 +199,7 @@ h1 {
   flex-direction: row;
   gap: 40px;
   justify-content: space-between;
+  flex-shrink: 0;
   margin-top: 50px;
     margin-left: 70px;
   margin-right: 70px;
@@ -229,4 +230,28 @@ h1 {
 
 .showcase-btn:hover {
   opacity: 0.8;
+}
+
+.sc-item-pic {
+  height: 70%;
+  width: 105%;
+}
+
+.showcase-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sc-item-name {
+  font-weight: normal;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.sc-item-price {
+  font-weight: normal;
+  font-size: 11px;
+  margin-top: 2px;
+  color: rgb(177, 177, 177);
 }
